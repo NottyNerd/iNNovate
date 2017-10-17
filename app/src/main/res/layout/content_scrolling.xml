@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="io.innovate.innovate.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+
+    <LinearLayout
+        android:id="@+id/content_scrolling"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        >
+
+        <TextView
+            android:id="@+id/favQuote"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="15"
+            android:text="@string/quotes"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/darker_gray"
+            style="@style/MotivatorQuote"
+            android:gravity="center|right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:id="@+id/message"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="85"
+            android:text="@string/story"
+            android:textStyle="normal"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            style="@style/MotivatorStory"
+            android:gravity="top|center|left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>
