@@ -46,6 +46,7 @@ You can contact me regarding iNNovate via [beloved.egbedion@gmail.com](mailto:be
 
 ### Contributors
 
-- Wale Alogbo for the designs
-- Rotimi Ekundayo for helping with content development
+- Wale Alogbo for the UI designs
+- Rotimi Ekundayo for helping with icons content development
+
 
